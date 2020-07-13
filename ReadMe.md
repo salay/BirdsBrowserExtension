@@ -12,8 +12,8 @@ Next steps:
 3) Make a beginner/hello-world-esque extension that reminds people to actually foster meaningful connections with friends every time they visit a social media site
 4) Make an extension that that yells at you when you're distracted when you want to work.
     Accepts:
-    a) Time range to be working
-    b) A list of URLs to block
-    c) A "take a break" button
-    d) A "disable the break button" button
+        1) Time range to be working
+        2) A list of URLs to block
+        3) A "take a break" button
+        4) A "disable the break button" button
 
