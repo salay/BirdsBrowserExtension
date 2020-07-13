@@ -1,0 +1,28 @@
+{
+    "name": "JohnBear",
+	"version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["birdCountInit.js"]
+        },
+        {
+			"matches": ["<all_urls>"],
+			"include_globs": ["*bird*"],
+			"exclude_matches": ["https://birdsarentreal.com/"],
+            "js": ["birdTruthRedirect.js"]
+        },
+        {
+            "matches": ["https://birdsarentreal.com/"],
+            "js": ["todaso.js"]
+        }
+    ],
+    "browser_action": {
+        "default_title": "Birds"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["tabs"]
+}
