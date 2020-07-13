@@ -11,7 +11,9 @@ Next steps:
 2) Learn to make an app with React in a browser extension
 3) Make a beginner/hello-world-esque extension that reminds people to actually foster meaningful connections with friends every time they visit a social media site
 4) Make an extension that that yells at you when you're distracted when you want to work.
+
     Accepts:
+    
         1) Time range to be working
         2) A list of URLs to block
         3) A "take a break" button
